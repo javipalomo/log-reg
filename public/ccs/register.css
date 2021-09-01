@@ -1,0 +1,116 @@
+body{
+    margin: o;
+    padding: 0;
+    background: url(/images/imagen1.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.header-welcome{
+padding-top: 2px;
+color: #fff; 
+}
+
+main {
+display: flex;
+justify-content: center;
+}
+
+.register {
+width: 230px;
+height: 390px;
+background: #BCAD85;
+color: #000;
+box-sizing: border-box;
+/* margin: 50vh 20vw ; */
+border-radius: 10px;
+display: flex;
+justify-content: center;
+}
+.header-form {
+    
+    width: 230px;
+    height: 70px;
+    background-color: #000;
+   border-radius: 5px 5px 0 0;
+
+}
+.register .logo {
+   
+    width: 160px;
+    height: 70px;
+    position: relative;
+    left: 15%;
+   
+}
+.register .form{
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 12px;
+}
+.register h3{
+text-align: center;
+
+}
+.register label {
+margin: 0px;
+padding: 0px;
+font-weight: bold;
+}
+
+.register input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.register input[type="text"],
+.register input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #000;
+    background: black;
+    background-color: rgba(0,0,0,0.1);
+    outline: none;
+    height: 10px;
+    color:#000;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 4px;
+}
+.register input[type="submit"]{
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 35px;
+    margin-left: 25px;
+    background: #000;
+    color: #BCAD85;
+    font-size: 14px;
+border-radius: 20px;
+cursor: pointer;
+}
+
+.register input[type="submit"]:hover{
+    background: #fff;
+    color: #000;
+}
+    
+.register a {
+text-decoration: none;
+font-size: 10px;
+line-height: 15px;
+color: #000;
+}
+
+.register a:hover{
+    
+    color: #fff ;
+}
+
+@media (min-with: 780px){
+    .header-welcome{
+        display: none;
+        
+       
+    }
+}
